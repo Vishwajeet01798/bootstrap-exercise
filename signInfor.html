@@ -1,0 +1,102 @@
+<html>
+<head>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body
+{
+background:red;
+display:flex;
+}
+.outer
+{
+display:flex;
+height:500px;
+width:800px;
+//border: 5px solid black;
+margin:auto;
+margin-top: 50px;
+box-shadow:15px 15px 20px black;
+}
+.form
+{
+display:flex;
+flex-direction: column;
+width: 50%;
+align-items: center;
+background-color:white;
+}
+.form h2
+{
+font-size: 3rem;
+font-family: Impact;
+margin: 40px;
+}
+.box
+{
+padding:12px;
+width:65%;
+margin:15px;
+border:1px solid black;
+border-radius: 20px;
+box-shadow:15px 15px 20px black;
+}
+#submit
+{
+padding:12px 30px;
+width:40%;
+margin-top:40px;
+background-color:black;
+color:white;
+font-weight:bold;
+border-radius:20px;
+}
+#submit:hover
+{
+cursor:pointer;
+background-color:red;
+}
+.form a
+{
+color:black;
+margin-top:20px;
+}
+.form a:hover
+{
+color:#00d936;
+}
+.side
+{
+display:flex;
+justify-content:center;
+align-items:center;
+width:50%;
+background-color:#00c462;
+
+}
+.side img
+{
+width:450px;
+height:500px;
+}
+</style>
+</head>
+<body>
+<div class="outer">
+<form action="" class="form">
+<h2>Sign IN</h2>
+<input type="email" name="email" class="box" placeholder="Enter Email">
+<input type="password" name="password" name="password" class="box" placeholder="Enter password">
+<input type="submit" value="Sign In" id="submit">
+<a href="bg-danger"> ForgetPassword?</a>
+</form>
+<div class="side">
+<img src="images2/sign.jpg" alt="">
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,706 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="css/all.css" rel="stylesheet"/>
+<script src="js/bootstrap.bundle.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.text-mycolor
+{
+background:linear-gradient(60deg,red,black,red) !important;
+color:white !important;
+}
+.mycolor
+{
+color:red !important;
+}
+.mycolor2
+{
+background-color:red !important;
+}
+.s
+{
+height:30px;
+width:30px;
+border:0px solid white;
+background-color: ;
+border-radius:1px;
+line-height:25px;
+color:red;
+}
+.s:hover
+{
+transform:rotate(360deg);
+transition:all ease 1s;
+background:transparent;
+color:white;
+}
+.container {
+  position: relative;
+}
+.container img {
+  width: 75%;
+  height: auto;
+}
+.container .btn2 {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-60%, -60%);
+  -ms-transform: translate(-60%, -60%);
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container .btn2:hover {
+  background-color:red ;
+}
+#btn3
+{
+min-height:100px;
+width:30px;
+padding:2px;
+color:white;
+background:#00d700;
+text-align:center;
+border-radius:0px 4px 4px ;
+position:fixed;
+top:50px;
+left:0px;
+}
+.s:hover
+{
+background-color:red;
+}
+#mySidenav a {
+  position:fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 200px;
+  background-color:red;
+}
+
+ 
+</style>
+</head>
+<body>
+<div class="container-fluid">
+
+	<div class="row top text-mycolor ">
+	<div class="col-sm-3 ms-3 ">
+	<i class="fa-regular fa-envelope"></i>
+	vishu@gmail.com
+	</div>
+	<div class="col-sm-3 ">
+	<i class="fa-solid fa-phone ms-5"></i>
+	<a class="text-white" href="#">+91-7007098724</a>
+	</div>
+	
+	<div class="col-sm-3">
+	<i class="fa-brands fa-youtube s "></i>
+	<i class="fa-brands fa-instagram s "></i>
+	<i class="fa-brands fa-square-twitter s "></i>
+	<i class="fa-brands fa-facebook s "></i>
+	</div>
+</div></div>
+
+		<!-- Search Bar --->
+	<div class="row mt-3 bg-light">
+<div class="col-sm-3 logo text-center fs-5 bg-light fw-bold">
+Desire<b class="mycolor">Cart <i class="fa-solid fa-cart-shopping"></i></b>
+</div>
+<div class="col-sm-6">
+<form class="d-flex" role="search">
+        <input class="form-control me-2" type="search"
+		placeholder="Search Items Here"aria-label="Search">
+        <button class="btn mycolor2" type="submit">
+		<i class="fa-solid fa-magnifying-glass"></i>
+		</button>
+      </form>
+</div>
+			<div class="col-sm-3 ">
+				<i class=" ms-5 fa-solid fa-cart-shopping fs-2 mycolor"></i>
+</div>
+</div>
+
+		<!-- END Bar --->
+		<nav class="navbar navbar-expand-lg bg-dark ">
+  <div class="container-fluid">
+  
+    <a class="navbar-brand " href="#"><b class="mycolor">DESIRECART</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Ecommercesite.html">
+		 <b class="text-white s"><i class="fa-sharp fa-solid fa-house p-1"></i>
+		 HOME</b></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" href="#" role="button"
+		  data-bs-toggle="dropdown" aria-expanded="false">
+		  <b class="text-white s">
+		  <i class="fa-brands fa-product-hunt p-1"></i>PRODUCT</b></a>
+
+				<ul class="dropdown-menu mycolor2">
+            <li><a class="dropdown-item btn "  href="mensslide.html">Mens</a></li>
+            <li><a class="dropdown-item btn2 " href="womensslide.html">Women</a></li>
+            <li><a class="dropdown-item btn3 " href="kidslide.html">Kid</a></li>
+          </ul>
+		  
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="myorders.html"><b class="text-white s">
+		  <i class="fa-solid fa-cart-shopping p-1"></i>MYORDERS</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="myorders.html"><b class="text-white s">
+            <i class="fa-solid fa-user p-1"></i>MYPROFILE</b>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href="Contactus.html"><b class="text-white s">
+		  <i class="fa-solid fa-phone p-1"></i>CUSTOMERSUPPORT</b></a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link"href="mapcontact.html"><b class="text-white s">
+		  <i class="fa-solid fa-user p-1"></i>CONTACTUS</b></a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link "href="mapcontact.html"><b class="text-white s">
+		  <i class="fa-solid fa-key p-1"></i>SIGNIN</b></a>
+        </li>
+      </ul>
+      </div>
+  </div>
+</nav>
+
+		<!--end menu -->
+		<div class="row slider">
+		<div class="col-sm-12 slider p-0 ">
+
+<!-- start slider -->
+<!-- start slider -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	<button type="button"   data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images2/slider4.jpg" class="d-block w-100" alt="..." style="max-height:500px">
+      <div class="carousel-caption d-none d-md-block a text-warning">
+        
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="100">
+      <img src="images2/slider10.jpg" class="d-block w-100" alt="..." style="max-height:500px">
+      <div class="carousel-caption d-none d-md-block a text-bg-mycolor">
+        
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="100">
+      <img src="images2/slider8.jpg" class="d-block w-100" alt="..." style="max-height:500px">
+      <div class="carousel-caption d-none d-md-block a text-bg-mycolor">
+        
+      </div>
+    </div>
+
+		<div class="carousel-item" data-bs-interval="100">
+      <img src="images2/slider9.jpg" class="d-block w-100" alt="..." style="max-height:550">
+      <div class="carousel-caption d-none d-md-block a text-bg-mycolor">
+       
+      </div>
+   
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <button class="carousel-control-prev" type="button"
+	data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+</div>
+</div>
+
+		<!--sliderclose-->
+		<!--start feedback-->
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about">About</a>
+</div>
+
+<!--end feedback--->
+		
+		<div class="row gallery mt-3 p-0 ">
+		<div class="col-sm-4 container w-25">
+		
+		<img src="images2/ks2.jpeg" >
+		<button class="btn2">Order Now</button>
+		</div>
+		<div class="col-sm-4 container w-25 ">
+		
+		<img src="images2/ks5.jpeg" >
+		<button class="btn2">Order Now</button>
+		</div>
+		
+		<div class="col-sm-4 container w-25 ">
+		
+		<img src="images2/ks3.jpeg" >
+		<button class="btn2">Order Now</button>
+		</div></div>
+		<!--end--->
+		<!--start about us -->
+		
+		<div class="row content bg-light">
+		<div class="text-center fs-3 mt-3 fw-bold">About <b class="text-light mycolor py-4">US
+		
+		</b></div>
+		<div class="col-sm-8 mx-auto fs-5  " style="text-align:justify;">
+		A well-built infographic might help visitors remember about you or your business better than any amount of words. So if you think it works better for your brand or business, skip the lengthy description, or add a well-designed graphic that can help your visitors understand your concept. Or maybe you would like 
+		to add a cool video about how your business was created, A well-built infographic might help visitors remember about you or your business better than any amount of words. So if you think it works better for your brand or business, skip the lengthy description, or add a well-designed graphic that can help your visitors understand your concept. Or maybe you would like 
+		to add a cool video about how your business was created, or about your story and let it speak for itself.
+		A well-built infographic might help visitors remember about you or your business better than any amount of words. So if you think it works better for your brand or business, skip the lengthy description, or add a well-designed graphic that can help your visitors understand your concept. Or maybe you would like to add a cool video 
+		about how your business was created, or about your story and letor about your story and let it speak for itself.
+		A well-built infographic might help visitors remember about you or your business better than any amount of words. So if you think it works better for your brand or business, skip the lengthy description, or add a well-designed graphic that can help your visitors understand your concept. Or maybe you would like to add a cool video 
+		about how your business was created, or about your story and let it speak for itself.
+		</div>
+		</div>
+		
+		<!--end About us--->
+		
+		
+		
+		
+		
+		<!--start card -->
+		
+<div class="row">
+		<div class="col-sm-12 fs-3 text-center mt-3 fw-bold">Our<b class="mycolor">Product
+		<i class="fa-solid fa-cart-shopping"></i>
+		</b>
+		</div>
+		<div>
+<!-- start card -->
+<div class="row mt-3">
+<div class="col-sm-3">
+<div class="card bg-light">
+<img src="images2/kj3.jpeg " class="img-card-top" style="max-height:500px">
+<div class="card-body">
+<div class="card-title fw-bold fs-3 text-center">
+Jeans
+
+</div>
+<p class="text-center">Mens casual and branded shirts</p>
+<div class="card-text">
+<b>Price:
+<i class="fa-solid fa-indian-rupee-sign"></i>
+</b>
+<b class="text-success">599-</b>
+<s class="text-danger">799/-</s><br/>
+<span class="btn mycolor2 text-white mt-1" > ADD TO CART
+<i class="fa-solid fa-cart-shopping"></i>
+</span>
+<span class="btn mycolor2 text-white mt-1" >ORDER NOW </span>
+<span class="rating">
+</span>
+</div>
+</div>
+</div>
+</div>
+<!--- end card--->
+
+<!-- start card -->
+<div class="col-sm-3">
+<div class="card bg-light">
+<img src="images2/wt2.jpeg" class="img-card-top" style="max-height:500px">
+<div class="card-body">
+<div class="card-title fw-bold fs-3 text-center">
+Baby Suit
+
+</div>
+<p class="text-center">Mens stylish and branded t-shirts</p>
+<div class="card-text">
+<b>Price:
+<i class="fa-solid fa-indian-rupee-sign"></i>
+</b>
+<b class="text-success">499-</b>
+<s class="text-danger">699/-</s><br/>
+<span class="btn mycolor2 text-white mt-1" > ADD TO CART
+<i class="fa-solid fa-cart-shopping"></i>
+</span>
+<span class="btn mycolor2 text-white mt-1" >ORDER NOW </span>
+<span class="rating">
+</span>
+</div>
+</div>
+</div>
+</div>
+<!--- end card--->
+
+<!-- start card -->
+<div class="col-sm-3">
+<div class="card bg-light">
+<img src="images2/mt2.jpg " class="img-card-top" style="max-height:500px">
+<div class="card-body">
+<div class="card-title fw-bold fs-3 text-center">
+Mens Casual
+
+</div>
+<p class="text-center">Mens stylish and branded jeans</p>
+<div class="card-text">
+<b>Price:
+<i class="fa-solid fa-indian-rupee-sign"></i>
+</b>
+<b class="text-success">2000-</b>
+<s class="text-danger">1500/-</s><br/>
+<span class="btn mycolor2 text-white mt-1" > ADD TO CART
+<i class="fa-solid fa-cart-shopping"></i>
+</span>
+<span class="btn mycolor2 text-white mt-1" >ORDER NOW </span>
+<span class="rating">
+</span>
+</div>
+</div>
+</div>
+</div>
+
+<!--- end card--->
+
+<!-- start card -->
+<div class="col-sm-3">
+<div class="card bg-light">
+<img src="images2/ws1.jpeg" class="img-card-top " style="max-height:500px">
+<div class="card-body">
+<div class="card-title fw-bold fs-3 text-center">
+Womens Shirt
+
+</div>
+<p class="text-center">Womens designer and stylish shirts</p>
+<div class="card-text">
+<b>Price:
+<i class="fa-solid fa-indian-rupee-sign"></i>
+</b>
+<b class="text-success">200-</b>
+<s class="text-danger">1500/-</s><br/>
+<span class="btn mycolor2 text-white mt-1" > ADD TO CART
+<i class="fa-solid fa-cart-shopping"></i>
+</span>
+<span class="btn mycolor2 text-white mt-1" >ORDER NOW </span>
+<span class="rating">
+</span>
+</div>
+</div>
+</div>
+</div>
+
+<!--- end card--->
+
+</div>
+<!--our product card1 end-->
+<!--our product card2 start-->
+<div class="row">
+<!-- start card -->
+<div class="col-sm-3">
+<div class="card bg-light">
+<img src="images2/kt1.jpeg " class="img-card-top" style="max-height:500px">
+<div class="card-body">
+<div class="card-title fw-bold fs-3 text-center">
+Mens Shirt
+
+</div>
+<p class="text-center">Mens casual and branded shirts</p>
+<div class="card-text">
+<b>Price:
+<i class="fa-solid fa-indian-rupee-sign"></i>
+</b>
+<b class="text-success">499-</b>
+<s class="text-danger">699/-</s><br/>
+<span class="btn mycolor2 text-white mt-1" > ADD TO CART
+<i class="fa-solid fa-cart-shopping"></i>
+</span>
+<span class="btn mycolor2 text-white mt-1" >ORDER NOW </span>
+<span class="rating">
+</span>
+</div>
+</div>
+</div>
+</div>
+
+<!--- end card--->
+
+<!-- start card -->
+<div class="col-sm-3">
+<div class="card bg-light">
+<img src="images2/k2.jpg" class="img-card-top" style="max-height:500px">
+<div class="card-body">
+<div class="card-title fw-bold fs-3 text-center">
+Mens Shirt
+
+</div>
+<p class="text-center">Mens casual and branded shirts</p>
+<div class="card-text">
+<b>Price:
+<i class="fa-solid fa-indian-rupee-sign"></i>
+</b>
+<b class="text-success">499-</b>
+<s class="text-danger">699/-</s><br/>
+<span class="btn mycolor2 text-white mt-1" > ADD TO CART
+<i class="fa-solid fa-cart-shopping"></i>
+</span>
+<span class="btn mycolor2 text-white mt-1" >ORDER NOW </span>
+<span class="rating">
+</span>
+</div>
+</div>
+</div>
+</div>
+
+<!--- end card--->
+
+<!-- start card -->
+<div class="col-sm-3">
+<div class="card bg-light">
+<img src="images2/kk2.jpeg " class="img-card-top" style="max-height:500px">
+<div class="card-body">
+<div class="card-title fw-bold fs-3 text-center">
+Mens Shirt
+
+</div>
+<p class="text-center">Mens casual and branded shirts</p>
+<div class="card-text">
+<b>Price:
+<i class="fa-solid fa-indian-rupee-sign"></i>
+</b>
+<b class="text-success">499-</b>
+<s class="text-danger">699/-</s><br/>
+<span class="btn mycolor2 text-white mt-1" > ADD TO CART
+<i class="fa-solid fa-cart-shopping"></i>
+</span>
+<span class="btn mycolor2 text-white mt-1" >ORDER NOW </span>
+<span class="rating">
+</span>
+</div>
+</div>
+</div>
+</div>
+
+<!--- end card--->
+
+<!-- start card -->
+<div class="col-sm-3">
+<div class="card bg-light">
+<img src="images2/ws4.jpeg" class="img-card-top" style="max-height:500px">
+<div class="card-body">
+<div class="card-title fw-bold fs-3 text-center">
+Mens Shirt
+</div>
+<p class="text-center">Mens casual and branded shirts</p>
+<div class="card-text">
+<b>Price:
+<i class="fa-solid fa-indian-rupee-sign"></i>
+</b>
+<b class="mycolor">499-</b>
+<s class="text-danger">699/-</s><br/>
+<span class="btn mycolor2 text-white mt-1" > ADD TO CART
+<i class="fa-solid fa-cart-shopping"></i>
+</span>
+<span class="btn mycolor2 text-white mt-1" >ORDER NOW </span>
+<span class="rating">
+</span>
+</div>
+</div>
+</div>
+</div>
+
+<!--- end card--->
+
+</div>
+		<!--end -->
+
+		<!--start bigSale--->
+		<div class="row BigSale">
+		<div class="col-sm-12 fs-3 text-center mt-3 fw-bold">BIG <b class="mycolor">SALE!
+		</b></div>
+		<div class="row BigSale bg-warning mt-2">
+		<div class="col-sm-6 ">
+		<img src="images2/kid.jpg" class="w-100 mx-auto"/>
+		</div>
+
+		<div class="col-sm-6 mt-5 bg-warning">
+		<p class="h1 mycolor text-center">50% less in all times</br>
+		<p class="h4 text-center mt-3">New arrivals, new collection.</br>
+		Offer valid for 5 days only.<br>
+		HURRY UP!</p>
+		<div class="text-center">
+		<span class="btn btn-outline-dark mycolor2 text-white" >SHOP NOW
+		<i class="fa-solid fa-cart-shopping"></i>
+		</span>
+		</div>
+		
+		
+		</div>
+		</div>
+		<div>
+		
+				<!--End bigSale--->
+				
+				<!--OurSERVICES--->
+				
+				<div class="row">
+		<div class="col-sm-12 fs-3 text-center mt-3 fw-bold">Our <b class="mycolor">SERVICES!
+		<i class="bi bi-magic"></i>
+		</b>
+		</div>
+		
+		<!--our services start-->
+<!--horizontal card start-->
+<div class="row">
+<div class="col-sm-4 mt-3  mycolor2"><div class="card mb-3" style="max-width:500px;">
+  <div class="row g-0">
+    <div class="col-sm-4">
+      <img src="images2/a.jpeg" class="img-fluid rounded-start" 
+	  alt="images2/shipping.jpg">
+    </div>
+    <div class="col-sm-8 mt-3">
+      <div class="card-body">
+        <h5 class="card-title">FREE SHIPPING</h5>
+        <p class="card-text">For all order 2000</p>
+       
+      </div>
+    </div>
+  </div>
+</div></div>
+<!--horizontal card end-->
+<!--horizontal card start-->
+<div class="col-sm-4 mt-3 mycolor2"><div class="card mb-3" style="max-width:500px;">
+  <div class="row g-0">
+    <div class="col-sm-4">
+      <img src="images2/b.jpeg" class="img-fluid rounded-start" 
+	  alt="image2/clock.jpg"/>
+    </div>
+    <div class="col-sm-8 mt-3">
+      <div class="card-body">
+        <h5 class="card-title">DELIVERY ON TIME</h5>
+        <p class="card-text">Fastest Delivery at doorstep</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-sm-4 mt-3 mycolor2"><div class="card mb-3" style="max-width:500px;">
+  <div class="row g-0">
+    <div class="col-sm-4 ">
+      <img src="images2/c.jpeg" class="img-fluid rounded-start" 
+	  alt="image2/lock.png">
+    </div>
+    <div class="col-sm-8 mt-3">
+      <div class="card-body">
+        <h5 class="card-title">SECURE PAYMENT</h5>
+        <p class="card-text">100% secure payment</p>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+</div></div>
+		<!-- OurServicesEND --->
+		
+		<!--footerstart --->
+		<div class="row footer bg-dark ms-3 text-light">
+		<div class="container">
+	
+		<div class="row">
+      <div class="col-lg-3 mb-3">
+       <h5>Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a class="mycolor" href="#">aboutUs</a></li>
+          <li class="mb-2"><a class="mycolor" href="#">CheckOut</a></li>
+          <li class="mb-2"><a class="mycolor" href="#">Examples</a></li>
+          <li class="mb-2"><a class="mycolor" href="#">ContactSErvices</a></li>
+          <li class="mb-2"><a class="mycolor" href="#">Blog</a></li>
+          <li class="mb-2"><a class="mycolor" href="#">Swag Store</a></li>
+        </ul>
+       
+      </div>
+      <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+        <h5>Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a class="mycolor"  href="#">aboutUs</a></li>
+          <li class="mb-2"><a class="mycolor"  href="#">CheckOut</a></li>
+          <li class="mb-2"><a class="mycolor"  href="#">Examples</a></li>
+          <li class="mb-2"><a class="mycolor"  href="#">ContactSErvices</a></li>
+          <li class="mb-2"><a class="mycolor"href="#">Blog</a></li>
+          <li class="mb-2"><a class="mycolor"href="#">Swag Store</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Guides</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a  class="mycolor" href="#">Getting started</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#">Shopping</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#/">Shop</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#">Parcel</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Projects</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a  class="mycolor" href="#">Map</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#">Query</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#">Icons</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#">Issues</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#">Complaint</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Community</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2 "><a class="mycolor" href="#">Issues</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#">Discussions</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#"> sponsors</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#">Open Collective</a></li>
+          <li class="mb-2"><a  class="mycolor" href="#">Shop</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+		
+		
+		
+		
+	
+		</div>
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="css/all.css" rel="stylesheet"/>
+<style>
+.bg-mycolor
+{
+background:red !important;
+}
+.login
+{
+min-height:300px;
+}
+::placeholder
+{
+color:black !important;
+}
+</style>
+</head>
+<body>
+
+<div class="container-fluid outer ">
+<div class="row">
+<div class="col-sm-6 login bg-light border
+ border-danger border-3 mx-auto mt-2">
+ <div class =" h2 text-center fw-bold">Sign In</br></br>
+ <div class="input-group mb-3 mt-2">
+ <div class="input-group-prepend">
+ <span class="input-group-text" id="basic-addon1">
+ <i class="fa fa-user fa-spin"></i></span>
+ </div>
+ <input name="name" id="txtname" type="text" class="form-control" placeholder="Name of Student " aria-label="Username">
+ </div>
+ <div class="input-group mb-3">
+ <div class="input-group-prepend">
+ <span class="input-group-text" id="basic-addon1">
+ <i class="fas fa-phone-volume fa-spin"></i></span>
+ </div>
+ <input type="number" id="txtcmobile" name="contactno" class="form-control" placeholder="Mobile No." aria-label="Username" aria-describedby="basic-addon1">
+ </div>
+ <div class="input-group mb-3">
+ <div class="input-group-prepend">
+ <span class="input-group-text" id="basic-addon1">
+ <i class="fas fa-envelope-square fa-spin"></i></span>
+ </div>
+ <input type="email" name="email" id="txtemail" class="form-control" placeholder="Email " aria-label="Username" aria-describedby="basic-addon1">
+ </div>
+ <div class="input-group mb-3">
+ <div class="input-group-prepend">
+ <span class="input-group-text" id="basic-addon1">
+ <i class="fab fa-discourse fa-spin"></i></span>
+ </div>
+ <select required="required" name="training" id="training" class="form-control">
+ <option>Apply For</option>
+ <option value="ST">Summer Training</option>
+ <option value="IT">Industrial Training</option>
+ <option>Other</option>
+    </select>
+    </div>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">
+	<i class="fas fa-signal fa-spin"></i></span>
+    </div>
+    <select required="required" name="mode" id="txtmode" class="form-control">
+    <option>Training Mode</option>
+    <option>Online</option>
+    <option>Offline</option>
+    </select>
+    </div>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">
+	<i class="fas fa-graduation-cap fa-spin"></i></span>
+    </div>
+    <input type="text" id="txtcol" name="college" class="form-control" placeholder="College Name " aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">
+	<i class="fas fa-calendar-week fa-spin">
+	</i></span>
+    </div>
+    <select required="required" name="session" id="txtsession" class="form-control">
+    <option>Training Session</option>
+    <option value="21">2021</option>
+    <option value="22">2022</option>
+    </select>
+    </div>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">
+	<i class="fas fa-list fa-spin"></i></span>
+    </div>
+    <select required="required" name="course" id="txtcourse" class="form-control">
+    <option>Select Course</option>
+    <option>B.Tech(C.S)</option>                   
+    </select>
+    </div>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">
+	<i class="fas fa-calendar-week fa-spin"></i></span>
+    </div>
+    <select required="required" name="year" id="txtyear" class="form-control">
+    <option>First</option>
+    <option>Second</option>
+    </select>
+    </div>
+    <input type="button" onclick="REGISTERNOW()" value="REGISTER NOW" class="btn btn-primary form-control" style="background:#fbaf0c; border:none;" />
+    </div>
+    </div>
+</div>
+<script>
+    
+</script>
+</body>
+</html>
